@@ -24,6 +24,7 @@ mix.setPublicPath('dist')
      postCss: [ require('tailwindcss')('./tailwind.js') ],
    })
    .purgeCss()
+   .browserSync('http://localhost/tompepper-site/')
 
 if (mix.inProduction()) {
   mix.version()

@@ -1,0 +1,14 @@
+
+ul#menu-main {
+    list-style: none;
+    padding: 0;
+    display:flex;
+}
+
+ul#menu-main li {
+    padding-right:1em;
+}
+
+.menu-item a {
+    text-decoration: none;
+}

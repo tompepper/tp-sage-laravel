@@ -1,6 +1,5 @@
-<footer class="bg-grey-lighter py-8 mt-4 text-center">
+<footer class="py-8 mt-4">
     <div class="container">
-        <p>Footer</p>
         @php dynamic_sidebar('sidebar-footer') @endphp
     </div>
 </footer>
